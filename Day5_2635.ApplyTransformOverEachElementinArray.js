@@ -8,5 +8,5 @@ var map = function(arr, fn) {
     arr.map(
         (ele, i) => test.push(fn(ele, i))
     );
-    return test;
+    return test
 };
